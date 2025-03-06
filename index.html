@@ -1,132 +1,187 @@
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Muahangcunganhtrong</title>
-<style>
-/* �?nh d?ng chung */
-body {
-  font-family: Arial;
-  text-align: center;
-  background-color: black; 
-  color: white; }
-
-
-h2 {
-  color: white; 
-  font-size: 26px;
-  margin-top: 20px; 
-  text-align: center}
-
-
-table {
-  width: 80%;
-  margin: 20px auto;
-  border-collapse: collapse ;
-  background: black; 
-  color: black; }
-
-th, td {
-  border: 1px solid white;
-  padding: 12px;
-  text-align: center; color:white; }
-
-th {
-  background: blue;
-  color: white; }
-
-td iframe { 
-  max-width: 100%;
-  height: auto;}
-
-form {
-  background: black;
-  width: 50%;
-  margin: 20px auto;
-  padding: 20px;
-  color: white; }
-
-input, textarea {
-  width: 100%;
-  padding: 6px;
-  margin-top: 5px;
-  border: 1px solid blue; }
-
-input[type="submit"] {
-  background: blue; 
-  color: white;
-  padding: 10px;
-  font-size: 16px;
-  border: none; }
-
-input[type="submit"]:hover {
-  background: white;
-  color:blue; }
-
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mua iPhone - Cửa hàng iPhone chính hãng</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            background-color: #444;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+        .product-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .product-item {
+            background-color: white;
+            padding: 15px;
+            margin: 10px;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .product-item img {
+            width: 100%;
+            height: auto;
+        }
+        .product-item h3 {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .product-item p {
+            color: #888;
+            font-size: 14px;
+        }
+        .product-item .price {
+            font-size: 20px;
+            color: #333;
+            font-weight: bold;
+        }
+        .contact-section {
+            background-color: #333;
+            color: white;
+            padding: 30px 0;
+            text-align: center;
+        }
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
 </head>
 <body>
-<h2>Mua H�ng C�ng Anh Tr?ng</h2>
-   
-<table>
-    <thead>
-    <tr>
-    <th>Gi?i thi?u</th>
-    <th>T�n s?n ph?m</th>
-    <th>Gi�</th>
-    </tr>
-    </thead>
-<body>
-    <tr>
-<td><iframe width="560" height="315" src="https://www.youtube.com/embed/kLS8ImSBIJQ?autoplay=1&loop=1&playlist=kLS8ImSBIJQ" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></td>
-    <td>iphone16</td>
-    <td>20.000.000 VN�</td>
 
+    <header>
+        <h1>Mua iPhone - Cửa Hàng iPhone Chính Hãng</h1>
+    </header>
 
-    </tr>
-    <tr>
-    <td><iframe width="560" height="315" src="https://www.youtube.com/embed/VYoqPazNqXw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
-    <td>iphone15</td>
-    <td>15.990.000 VN�</td>
+    <nav>
+        <a href="#">Trang chủ</a>
+        <a href="#">Giới thiệu</a>
+        <a href="#">Sản phẩm</a>
+        <a href="#">Liên hệ</a>
+    </nav>
 
-    </tr>
-    <tr>
-<td><iframe width="560" height="315" src="https://www.youtube.com/embed/rMBopDh_Vsw?autoplay=1&loop=1&playlist=rMBopDh_Vsw" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></td>
-     <td>iphone14 pro</td>
-     <td>13.090.000 VN�</td>
+    <div class="container">
+        <section class="product-list">
+            <div class="product-item">
+                <img src="iphone13.jpg" alt="iPhone 13">
+                <h3>iPhone 13</h3>
+                <p>Màn hình OLED, chip A15 Bionic, camera kép</p>
+                <div class="price">22,990,000 VND</div>
+            </div>
 
-                </tr>
-            </tbody>
-        </table>
+            <div class="product-item">
+                <img src="iphone14.jpg" alt="iPhone 14">
+                <h3>iPhone 14</h3>
+                <p>Màn hình OLED, chip A16 Bionic, camera Pro</p>
+                <div class="price">28,990,000 VND</div>
+            </div>
 
-<h2>Th�ng tin d?a ch?</h2>
+            <div class="product-item">
+                <img src="iphone15.jpg" alt="iPhone 15">
+                <h3>iPhone 15</h3>
+                <p>Màn hình Super Retina XDR, chip A17, 5G</p>
+                <div class="price">35,990,000 VND</div>
+            </div>
 
-     <form action="https://formspree.io/f/meooyjew" method="post">
-     <label for="name">T�n kh�ch h�ng:</label>
-     <input type="text" id="name" name="name"><br><br>
+            <div class="product-item">
+                <img src="iphone12.jpg" alt="iPhone 12">
+                <h3>iPhone 12</h3>
+                <p>5G, màn hình OLED, camera kép</p>
+                <div class="price">19,990,000 VND</div>
+            </div>
 
-     <label for="product">T�n s?n ph?m:</label>
-     <input type="text" id="product" name="product" required><br><br>
+            <div class="product-item">
+                <img src="iphone11.jpg" alt="iPhone 11">
+                <h3>iPhone 11</h3>
+                <p>Camera kép, màn hình LCD, chip A13 Bionic</p>
+                <div class="price">15,990,000 VND</div>
+            </div>
 
-     <label for="quantity">S? lu?ng:</label>
-     <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+            <div class="product-item">
+                <img src="iphoneSE2020.jpg" alt="iPhone SE 2020">
+                <h3>iPhone SE 2020</h3>
+                <p>Chip A13 Bionic, màn hình Retina HD</p>
+                <div class="price">9,990,000 VND</div>
+            </div>
 
-     <label for="email">Email:</label>
-     <input type="email" id="email" name="email" required><br><br>
+            <div class="product-item">
+                <img src="iphoneXR.jpg" alt="iPhone XR">
+                <h3>iPhone XR</h3>
+                <p>Camera đơn, màn hình LCD, chip A12 Bionic</p>
+                <div class="price">13,490,000 VND</div>
+            </div>
 
-     <label for="address">�?a ch?:</label>
-     <textarea id="address" name="address"></textarea><br><br>
+            <div class="product-item">
+                <img src="iphoneXS.jpg" alt="iPhone XS">
+                <h3>iPhone XS</h3>
+                <p>Màn hình Super Retina, chip A12 Bionic</p>
+                <div class="price">18,990,000 VND</div>
+            </div>
 
-      <label for="phone">S? di?n tho?i:</label>
-      <input type="tel" id="phone" name="phone" required><br><br>
+            <div class="product-item">
+                <img src="iphone8.jpg" alt="iPhone 8">
+                <h3>iPhone 8</h3>
+                <p>Màn hình Retina HD, chip A11 Bionic</p>
+                <div class="price">7,990,000 VND</div>
+            </div>
 
-Iphone16<Input type="checkbox"value="iphone16"> 
+            <div class="product-item">
+                <img src="iphone7.jpg" alt="iPhone 7">
+                <h3>iPhone 7</h3>
+                <p>Camera 12MP, màn hình Retina, chip A10 Fusion</p>
+                <div class="price">6,490,000 VND</div>
+            </div>
+        </section>
+    </div>
 
-Iphone15<Input type="checkbox"value="iphone15">
+    <section class="contact-section">
+        <h2>Liên Hệ Với Chúng Tôi</h2>
+        <p>Địa chỉ: 123 Đường ABC, Quận 1, TP.HCM</p>
+        <p>Điện thoại: 0123 456 789</p>
+        <p>Email: support@muaiPhone.com</p>
+    </section>
 
-Iphone14 pro<Input type="checkbox"value="iphone14 pro">
-      <input type="submit" value="�?t h�ng">
-        </form>
+    <footer>
+        <p>&copy; 2025 Mua iPhone - Tất cả quyền được bảo vệ.</p>
+    </footer>
+
 </body>
 </html>
