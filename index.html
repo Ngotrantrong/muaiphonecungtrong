@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Muahangcunganhtrong</title>
+<style>
+/* Ð?nh d?ng chung */
+body {
+  font-family: Arial;
+  text-align: center;
+  background-color: black; 
+  color: white; }
+
+
+h2 {
+  color: white; 
+  font-size: 26px;
+  margin-top: 20px; 
+  text-align: center}
+
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse ;
+  background: black; 
+  color: black; }
+
+th, td {
+  border: 1px solid white;
+  padding: 12px;
+  text-align: center; color:white; }
+
+th {
+  background: blue;
+  color: white; }
+
+td iframe { 
+  max-width: 100%;
+  height: auto;}
+
+form {
+  background: black;
+  width: 50%;
+  margin: 20px auto;
+  padding: 20px;
+  color: white; }
+
+input, textarea {
+  width: 100%;
+  padding: 6px;
+  margin-top: 5px;
+  border: 1px solid blue; }
+
+input[type="submit"] {
+  background: blue; 
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  border: none; }
+
+input[type="submit"]:hover {
+  background: white;
+  color:blue; }
+
+</style>
+</head>
+<body>
+<h2>Mua Hàng Cùng Anh Tr?ng</h2>
+   
+<table>
+    <thead>
+    <tr>
+    <th>Gi?i thi?u</th>
+    <th>Tên s?n ph?m</th>
+    <th>Giá</th>
+    </tr>
+    </thead>
+<body>
+    <tr>
+<td><iframe width="560" height="315" src="https://www.youtube.com/embed/kLS8ImSBIJQ?autoplay=1&loop=1&playlist=kLS8ImSBIJQ" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></td>
+    <td>iphone16</td>
+    <td>20.000.000 VNÐ</td>
+
+
+    </tr>
+    <tr>
+    <td><iframe width="560" height="315" src="https://www.youtube.com/embed/VYoqPazNqXw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></td>
+    <td>iphone15</td>
+    <td>15.990.000 VNÐ</td>
+
+    </tr>
+    <tr>
+<td><iframe width="560" height="315" src="https://www.youtube.com/embed/rMBopDh_Vsw?autoplay=1&loop=1&playlist=rMBopDh_Vsw" title="YouTube video player" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></td>
+     <td>iphone14 pro</td>
+     <td>13.090.000 VNÐ</td>
+
+                </tr>
+            </tbody>
+        </table>
+
+<h2>Thông tin d?a ch?</h2>
+
+     <form action="https://formspree.io/f/meooyjew" method="post">
+     <label for="name">Tên khách hàng:</label>
+     <input type="text" id="name" name="name"><br><br>
+
+     <label for="product">Tên s?n ph?m:</label>
+     <input type="text" id="product" name="product" required><br><br>
+
+     <label for="quantity">S? lu?ng:</label>
+     <input type="number" id="quantity" name="quantity" min="1" required><br><br>
+
+     <label for="email">Email:</label>
+     <input type="email" id="email" name="email" required><br><br>
+
+     <label for="address">Ð?a ch?:</label>
+     <textarea id="address" name="address"></textarea><br><br>
+
+      <label for="phone">S? di?n tho?i:</label>
+      <input type="tel" id="phone" name="phone" required><br><br>
+
+Iphone16<Input type="checkbox"value="iphone16"> 
+
+Iphone15<Input type="checkbox"value="iphone15">
+
+Iphone14 pro<Input type="checkbox"value="iphone14 pro">
+      <input type="submit" value="Ð?t hàng">
+        </form>
+</body>
+</html>
