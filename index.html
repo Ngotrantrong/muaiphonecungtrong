@@ -3,185 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mua iPhone - Cửa hàng iPhone chính hãng</title>
+    <title>Cửa Hàng iPhone</title>
     <link rel="stylesheet" href="styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px 0;
-        }
-        header h1 {
-            margin: 0;
-        }
-        nav {
-            text-align: center;
-            background-color: #444;
-        }
-        nav a {
-            color: white;
-            padding: 14px 20px;
-            text-decoration: none;
-            display: inline-block;
-        }
-        nav a:hover {
-            background-color: #575757;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-        }
-        .product-list {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-        .product-item {
-            background-color: white;
-            padding: 15px;
-            margin: 10px;
-            width: 30%;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        .product-item img {
-            width: 100%;
-            height: auto;
-        }
-        .product-item h3 {
-            font-size: 18px;
-            margin: 10px 0;
-        }
-        .product-item p {
-            color: #888;
-            font-size: 14px;
-        }
-        .product-item .price {
-            font-size: 20px;
-            color: #333;
-            font-weight: bold;
-        }
-        .contact-section {
-            background-color: #333;
-            color: white;
-            padding: 30px 0;
-            text-align: center;
-        }
-        footer {
-            background-color: #222;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: fixed;
-            width: 100%;
-            bottom: 0;
-        }
-    </style>
 </head>
 <body>
-
     <header>
-        <h1>Mua iPhone - Cửa Hàng iPhone Chính Hãng</h1>
+        <div class="logo">
+            <h1>iPhone Store</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Trang Chủ</a></li>
+                <li><a href="#products">Sản Phẩm</a></li>
+                <li><a href="#contact">Liên Hệ</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <a href="#">Trang chủ</a>
-        <a href="#">Giới thiệu</a>
-        <a href="#">Sản phẩm</a>
-        <a href="#">Liên hệ</a>
-    </nav>
+    <section id="home">
+        <h2>Chào Mừng Đến Với Cửa Hàng iPhone</h2>
+        <p>Mua iPhone chính hãng, giá tốt, giao hàng nhanh chóng!</p>
+    </section>
 
-    <div class="container">
-        <section class="product-list">
-            <div class="product-item">
-                <img src="iphone13.jpg" alt="iPhone 13">
-                <h3>iPhone 13</h3>
-                <p>Màn hình OLED, chip A15 Bionic, camera kép</p>
-                <div class="price">22,990,000 VND</div>
-            </div>
-
-            <div class="product-item">
-                <img src="iphone14.jpg" alt="iPhone 14">
-                <h3>iPhone 14</h3>
-                <p>Màn hình OLED, chip A16 Bionic, camera Pro</p>
-                <div class="price">28,990,000 VND</div>
-            </div>
-
-            <div class="product-item">
-                <img src="iphone15.jpg" alt="iPhone 15">
-                <h3>iPhone 15</h3>
-                <p>Màn hình Super Retina XDR, chip A17, 5G</p>
-                <div class="price">35,990,000 VND</div>
-            </div>
-
-            <div class="product-item">
-                <img src="iphone12.jpg" alt="iPhone 12">
+    <section id="products">
+        <h2>Sản Phẩm iPhone</h2>
+        <div class="product-container">
+            <!-- Sản phẩm 1 -->
+            <div class="product">
+                <img src="https://www.apple.com/v/iphone-12/x/images/overview/hero/hero_iphone_12__djmhtzq5t3iq_large_2x.jpg" alt="iPhone 12" />
                 <h3>iPhone 12</h3>
-                <p>5G, màn hình OLED, camera kép</p>
-                <div class="price">19,990,000 VND</div>
+                <p class="price">15,990,000 VND</p>
+                <button class="buy-btn">Mua Ngay</button>
             </div>
 
-            <div class="product-item">
-                <img src="iphone11.jpg" alt="iPhone 11">
-                <h3>iPhone 11</h3>
-                <p>Camera kép, màn hình LCD, chip A13 Bionic</p>
-                <div class="price">15,990,000 VND</div>
+            <!-- Sản phẩm 2 -->
+            <div class="product">
+                <img src="https://www.apple.com/v/iphone-13/x/images/overview/hero/hero_iphone_13__gnqzxxjo4fpy_large_2x.jpg" alt="iPhone 13" />
+                <h3>iPhone 13</h3>
+                <p class="price">18,990,000 VND</p>
+                <button class="buy-btn">Mua Ngay</button>
             </div>
 
-            <div class="product-item">
-                <img src="iphoneSE2020.jpg" alt="iPhone SE 2020">
-                <h3>iPhone SE 2020</h3>
-                <p>Chip A13 Bionic, màn hình Retina HD</p>
-                <div class="price">9,990,000 VND</div>
+            <!-- Sản phẩm 3 -->
+            <div class="product">
+                <img src="https://www.apple.com/v/iphone-13-pro/x/images/overview/hero/hero_iphone_13_pro__hr92wyxj5a6u_large_2x.jpg" alt="iPhone 13 Pro" />
+                <h3>iPhone 13 Pro</h3>
+                <p class="price">25,990,000 VND</p>
+                <button class="buy-btn">Mua Ngay</button>
             </div>
 
-            <div class="product-item">
-                <img src="iphoneXR.jpg" alt="iPhone XR">
-                <h3>iPhone XR</h3>
-                <p>Camera đơn, màn hình LCD, chip A12 Bionic</p>
-                <div class="price">13,490,000 VND</div>
+            <!-- Sản phẩm 4 -->
+            <div class="product">
+                <img src="https://www.apple.com/v/iphone-12-pro/x/images/overview/hero/hero_iphone_12_pro__czldjdnlbdy2_large_2x.jpg" alt="iPhone 12 Pro" />
+                <h3>iPhone 12 Pro</h3>
+                <p class="price">22,990,000 VND</p>
+                <button class="buy-btn">Mua Ngay</button>
             </div>
 
-            <div class="product-item">
-                <img src="iphoneXS.jpg" alt="iPhone XS">
-                <h3>iPhone XS</h3>
-                <p>Màn hình Super Retina, chip A12 Bionic</p>
-                <div class="price">18,990,000 VND</div>
+            <!-- Sản phẩm 5 -->
+            <div class="product">
+                <img src="https://www.apple.com/v/iphone-se/x/images/overview/hero/hero_iphone_se__bxr1vn2vh7da_large_2x.jpg" alt="iPhone SE" />
+                <h3>iPhone SE</h3>
+                <p class="price">9,990,000 VND</p>
+                <button class="buy-btn">Mua Ngay</button>
             </div>
 
-            <div class="product-item">
-                <img src="iphone8.jpg" alt="iPhone 8">
-                <h3>iPhone 8</h3>
-                <p>Màn hình Retina HD, chip A11 Bionic</p>
-                <div class="price">7,990,000 VND</div>
+            <!-- Sản phẩm 6 -->
+            <div class="product">
+                <img src="https://www.apple.com/v/iphone-14/x/images/overview/hero/hero_iphone_14__djb8qx9d5o7e_large_2x.jpg" alt="iPhone 14" />
+                <h3>iPhone 14</h3>
+                <p class="price">21,990,000 VND</p>
+                <button class="buy-btn">Mua Ngay</button>
             </div>
 
-            <div class="product-item">
-                <img src="iphone7.jpg" alt="iPhone 7">
-                <h3>iPhone 7</h3>
-                <p>Camera 12MP, màn hình Retina, chip A10 Fusion</p>
-                <div class="price">6,490,000 VND</div>
+            <!-- Sản phẩm 7 -->
+            <div class="product">
+                <img src="https://www.apple.com/v/iphone-14-pro/x/images/overview/hero/hero_iphone_14_pro__mngvqa49ryee_large_2x.jpg" alt="iPhone 14 Pro" />
+                <h3>iPhone 14 Pro</h3>
+                <p class="price">30,990,000 VND</p>
+                <button class="buy-btn">Mua Ngay</button>
             </div>
-        </section>
-    </div>
 
-    <section class="contact-section">
-        <h2>Liên Hệ Với Chúng Tôi</h2>
-        <p>Địa chỉ: 123 Đường ABC, Quận 1, TP.HCM</p>
-        <p>Điện thoại: 0123 456 789</p>
-        <p>Email: support@muaiPhone.com</p>
+            <!-- Sản phẩm 8 -->
+            <div class="product">
+                <img src="https://www.apple.com/v/iphone-14-plus/x/images/overview/hero/hero_iphone_14_plus__yojknn2sq6oa_large_2x.jpg" alt="iPhone 14 Plus" />
+                <h3>iPhone 14 Plus</h3>
+                <p class="price">24,990,000 VND</p>
+                <button class="buy-btn">Mua Ngay</button>
+            </div>
+
+            <!-- Sản phẩm 9 -->
+            <div class="product">
+                <img src="https://www.apple.com/v/iphone-12-mini/x/images/overview/hero/hero_iphone_12_mini__g8ljw43hlru6_large_2x.jpg" alt="iPhone 12 Mini" />
+                <h3>iPhone 12 Mini</h3>
+                <p class="price">14,990,000 VND</p>
+                <button class="buy-btn">Mua Ngay</button>
+            </div>
+
+            <!-- Sản phẩm 10 -->
+            <div class="product">
+                <img src="https://www.apple.com/v/iphone-13-mini/x/images/overview/hero/hero_iphone_13_mini__gg6tnnb9lkwo_large_2x.jpg" alt="iPhone 13 Mini" />
+                <h3>iPhone 13 Mini</h3>
+                <p class="price">17,990,000 VND</p>
+                <button class="buy-btn">Mua Ngay</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Liên Hệ</h2>
+        <p>Email: contact@iphonestore.com</p>
+        <p>Hotline: 1800-1234</p>
     </section>
 
     <footer>
-        <p>&copy; 2025 Mua iPhone - Tất cả quyền được bảo vệ.</p>
+        <p>&copy; 2025 iPhone Store. All Rights Reserved.</p>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
